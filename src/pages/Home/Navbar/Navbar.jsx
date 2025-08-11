@@ -14,7 +14,9 @@ const Navbar = () => {
               type="button"
               class="text-white bg-[#DC2626] hover:bg-[#d30707]  transition-all duration-200 font-medium rounded-lg text-sm px-1 md:px-4 py-1 md:py-2 text-center "
             >
-              Download CV
+              <a href="my_cv_old.pdf" download>
+                Download CV
+              </a>
             </button>
             <button
               data-collapse-toggle="navbar-sticky"
