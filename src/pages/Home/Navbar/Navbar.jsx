@@ -4,7 +4,7 @@ import KM from "../../../assets/KM.png";
 const Navbar = () => {
   return (
     <div>
-      <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+      <nav class="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={KM} className="w-30 md:w-40" alt="" />
@@ -58,7 +58,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#about"
                   class="block  py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#d30707] md:p-0 transition-all duration-200"
                 >
                   About
@@ -66,7 +66,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#skills"
                   class="block  py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#d30707] md:p-0 transition-all duration-200"
                 >
                   Skills
@@ -74,7 +74,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#education"
                   class="block  py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#d30707] md:p-0 transition-all duration-200"
                 >
                   Education
@@ -82,7 +82,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#project"
                   class="block  py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#d30707] md:p-0 transition-all duration-200"
                 >
                   Projects
@@ -90,7 +90,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   class="block  py-2 px-3 text-white rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#d30707] md:p-0 transition-all duration-200"
                 >
                   Contact
