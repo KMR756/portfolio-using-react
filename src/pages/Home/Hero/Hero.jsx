@@ -102,7 +102,7 @@ const Hero = () => {
         <motion.img
           src={myPic}
           alt="Profile"
-          className="w-[50%]  md:w-[35%] lg:w-[36%] xl:w-[28%] mt-6 xl:mt-10 md:mt-0"
+          className="w-[80%]  md:w-[35%] lg:w-[36%] xl:w-[40%] mt-6 xl:mt-10 md:mt-0"
           initial={{ opacity: 0, x: 100, rotate: 5 }}
           animate={{
             opacity: 1,

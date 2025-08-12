@@ -33,7 +33,7 @@ const About = () => {
         viewport={{ once: true, amount: 0.3 }}
       >
         <motion.p
-          className="text-white text-lg leading-relaxed rounded-3xl bg-gray-800 hover:bg-gray-600 transition-all duration-200 p-8 shadow-lg"
+          className="text-white text-xs lg:text-lg leading-relaxed rounded-3xl bg-gray-800 hover:bg-gray-600 transition-all duration-200 p-8 shadow-lg"
           variants={fadeInUp}
         >
           Hello! <strong>I’m KM Rejoan Tanjim,</strong> a passionate MERN Stack
@@ -44,7 +44,7 @@ const About = () => {
         </motion.p>
 
         <motion.p
-          className="text-white text-lg leading-relaxed rounded-3xl bg-gray-800 hover:bg-gray-600 transition-all duration-200 p-8 shadow-lg"
+          className="text-white text-xs lg:text-lg leading-relaxed rounded-3xl bg-gray-800 hover:bg-gray-600 transition-all duration-200 p-8 shadow-lg"
           variants={fadeInUp}
         >
           Technology fascinates me — I love exploring new tools, frameworks, and
@@ -54,7 +54,7 @@ const About = () => {
         </motion.p>
 
         <motion.p
-          className="text-white text-lg leading-relaxed rounded-3xl bg-gray-800 hover:bg-gray-600 transition-all duration-200 p-8 shadow-lg"
+          className="text-white text-xs lg:text-lg leading-relaxed rounded-3xl bg-gray-800 hover:bg-gray-600 transition-all duration-200 p-8 shadow-lg"
           variants={fadeInUp}
         >
           I enjoy crafting seamless user experiences and writing clean,
@@ -64,7 +64,7 @@ const About = () => {
         </motion.p>
 
         <motion.p
-          className="text-white text-lg leading-relaxed rounded-3xl bg-gray-800 hover:bg-gray-600 transition-all duration-200 p-8 shadow-lg"
+          className="text-white text-xs lg:text-lg leading-relaxed rounded-3xl bg-gray-800 hover:bg-gray-600 transition-all duration-200 p-8 shadow-lg"
           variants={fadeInUp}
         >
           When I’m not coding, I’m always eager to learn about the latest
